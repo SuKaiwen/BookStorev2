@@ -1,6 +1,5 @@
 import React, {useState, useEffect} from 'react'
 import axios from 'axios'
-import { faStar } from '@fortawesome/free-solid-svg-icons';
 
 const BooksAPI = () => {
     const [books, setBooks] = useState([])
